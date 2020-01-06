@@ -20,13 +20,13 @@ for (i = 0; i < close.length; i++) {
   }
 }
 
-// Add a "checked" symbol when clicking on a list item
-//var list = document.querySelector('ul');
-//list.addEventListener('click', function(ev) {
- // if (ev.target.tagName === 'LI') {
-//ev.target.classList.toggle('checked');
+ Add a "checked" symbol when clicking on a list item
+var list = document.querySelector('ul');
+list.addEventListener('click', function(ev) {
+  if (ev.target.tagName === 'LI') {
+ev.target.classList.toggle('checked');
   }
-},// false);
+},false);
 
 // Create a new list item when clicking on the "Add" button
 function newElement() {
@@ -54,7 +54,7 @@ function newElement() {
     }
   }
 
- 
+}
 
 //   // var spa = document.createElement("SPAN");
 //    var tx = document.createTextNode("Edit");
@@ -66,8 +66,8 @@ function newElement() {
 //      edit[j].onclick = function() {
 //         var divi = this.parentElement;
 //        divi.style.display = "checked";
-     }
-   }
+//}
+ //  }
 
 
 //   //Create an Edit button
@@ -79,8 +79,8 @@ function newElement() {
   // spa.className = "edit";
   // spa.appendChild(tx);
   // myNode[j].appendChild(spa); 
-}
+//}
     
- }
-   }
+ //}
+   //}
  
