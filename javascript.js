@@ -21,12 +21,12 @@ for (i = 0; i < close.length; i++) {
 }
 
 // Add a "checked" symbol when clicking on a list item
-var list = document.querySelector('ul');
-list.addEventListener('click', function(ev) {
-  if (ev.target.tagName === 'LI') {
-    ev.target.classList.toggle('checked');
+//var list = document.querySelector('ul');
+//list.addEventListener('click', function(ev) {
+ // if (ev.target.tagName === 'LI') {
+//ev.target.classList.toggle('checked');
   }
-}, false);
+},// false);
 
 // Create a new list item when clicking on the "Add" button
 function newElement() {
@@ -56,45 +56,31 @@ function newElement() {
 
  
 
-   var spa = document.createElement("SPAN");
-   var tx = document.createTextNode("Edit");
-   spa.className = "edit";
-   spa.appendChild(tx);
-   li.appendChild(spa);
+//   // var spa = document.createElement("SPAN");
+//    var tx = document.createTextNode("Edit");
+//    spa.className = "edit";
+//    spa.appendChild(tx);
+//    li.appendChild(spa);
 
-   for (j = 0; j < edit.length; j++) {
-     edit[j].onclick = function() {
-        var divi = this.parentElement;
-       divi.style.display = "checked";
+//    for (j = 0; j < edit.length; j++) {
+//      edit[j].onclick = function() {
+//         var divi = this.parentElement;
+//        divi.style.display = "checked";
      }
    }
 
 
 //   //Create an Edit button
- var myNode = document.getElementsByTagName("LI");
- var j;
- for (j = 0; j < myNode.length; j++) {
-   var spa = document.createElement("SPAN");
-   var tx = document.createTextNode("Edit");
-   spa.className = "edit";
-   spa.appendChild(tx);
-   myNode[j].appendChild(spa); 
+// var myNode = document.getElementsByTagName("LI");
+ //var j;
+// for (j = 0; j < myNode.length; j++) {
+  // var spa = document.createElement("SPAN");
+   //var tx = document.createTextNode("Edit");
+  // spa.className = "edit";
+  // spa.appendChild(tx);
+  // myNode[j].appendChild(spa); 
 }
     
-// click on edit button to change
-// function change(elmnt){
-//     var x = input.value;
-//     if (x != ""){
-//         elmnt.childNodes[1].childNodes[0].nodeValue = x;
-//     }
-//     var sub = document.getElementById("addBt");
-//     input.value = "";
-//     sub.onclick = function() {addtodo()};
-//     var text = elmnt.childNodes[1];
-//     text.className = "todo";
-//     text.onclick = function() {changeclass(elmnt)};
-//     var chan = elmnt.childNodes[0];
-//     chan.childNodes[0].src = "css/img/circle-li.png";
-// }
+ }
    }
  
