@@ -56,31 +56,7 @@ function newElement() {
 
 }
 
-//   // var spa = document.createElement("SPAN");
-//    var tx = document.createTextNode("Edit");
-//    spa.className = "edit";
-//    spa.appendChild(tx);
-//    li.appendChild(spa);
-
-//    for (j = 0; j < edit.length; j++) {
-//      edit[j].onclick = function() {
-//         var divi = this.parentElement;
-//        divi.style.display = "checked";
-//}
- //  }
 
 
-//   //Create an Edit button
-// var myNode = document.getElementsByTagName("LI");
- //var j;
-// for (j = 0; j < myNode.length; j++) {
-  // var spa = document.createElement("SPAN");
-   //var tx = document.createTextNode("Edit");
-  // spa.className = "edit";
-  // spa.appendChild(tx);
-  // myNode[j].appendChild(spa); 
-//}
-    
- //}
-   //}
+
  
